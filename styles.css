@@ -77,11 +77,11 @@ button i {margin-right: 8px;font-size: 18px;}
     /*Smartphone*/
 
 
-@media (max-width: 768px) {main, section, .contenedor-padre {width: 100% !important;padding: 20px 0 !important;display: flex !important;
+@media (max-width: 768px) {main, section, .contenedor-padre {width: 100% !important;padding: 5px 0 !important;display: flex !important;
         flex-direction: column !important;align-items: center !important;box-sizing: border-box !important;}
 
    
-    #horario {width: 85% !important;max-width: 380px !important;margin: 20px auto !important;padding: 30px 20px !important;
+    #horario {width: 85% !important;max-width: 380px !important;padding: 30px 20px !important;
         background-color: white !important;border-radius: 15px !important;box-shadow: 0 4px 15px rgba(0,0,0,0.2) !important;
         display: block !important;text-align: center !important;box-sizing: border-box !important;}
 
