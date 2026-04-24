@@ -1,0 +1,99 @@
+body {font-family: Arial, sans-serif;background-color: blanchedalmond;}
+
+header {text-align: center;font-style: oblique;font-family: Arial;font-size: 230%;}
+
+img {width: 500px;display: block;margin: auto;margin-bottom: 50px;margin-top: 50px;}
+
+
+
+main {  max-width: 1400px;  margin: auto;}
+
+#Saludo {width: auto;text-align: center;font-size: 150%;margin-top: 50px;}
+
+
+
+
+/*seccion de botones menu ubicacion y redes*/
+
+
+#Botones {display: flex;justify-content: space-around;align-items: center;margin-top: 80px;margin-bottom: 80px;}
+button {height: 70px;width: 120px;background-color: rgb(214, 198, 175); border-radius: 32%;font-size: 20px;font-family: Arial;box-shadow: 0px 10px 20px gray;cursor: pointer;}
+button:hover{transition: 0.3s;box-shadow: 0px 15px 25px;transform: translateY(-5px) scale(1.05);}
+button i {margin-right: 8px;font-size: 18px;}
+.fa-instagram {color: #E1306C;}
+.fa-location-dot {color: #c0392b;}
+
+
+#Menu {font-family: arial;font-size: 300%;text-align: left;}
+
+#Ubicacion {font-family: arial;font-size: 300%;text-align: center;}
+
+#Redes-Sociales {font-family: arial;font-size: 300%;}
+
+
+
+
+/*customizadores separados para cada item del menu*/
+
+
+
+#Entradas h2 {width: auto;font-family: arial;font-size: 300%;text-align: center;}
+#Entradas ul {display: flex;  flex-wrap: wrap;  justify-content: center;  gap: 40px;  list-style: none;}
+ #Entradas li {display: flex;  flex-direction: column;  align-items: center;  text-align: center;font-family: Arial;font-size: 150%;width: 200px;}
+ #Entradas li img {height: 200px;width: 200px;object-fit: cover;}
+
+ 
+
+
+#Plato-Fuerte h2 {width: auto;font-family: arial;font-size: 300%;text-align: center;}
+#Plato-Fuerte ul {  display: flex;  flex-wrap: wrap;  justify-content: center;  gap: 40px;  list-style: none;}
+ #Plato-Fuerte li {display: flex;  flex-direction: column;  align-items: center;  text-align: center;font-family: Arial;font-size: 150%;width: 200px;}
+ #Plato-Fuerte li img {height: 200px;width: 200px;object-fit: cover;}
+
+
+ 
+#Bebidas h2 {width: auto;font-family: arial;font-size: 300%;text-align: center;}
+#Bebidas ul {  display: flex;  flex-wrap: wrap;  justify-content: center;  gap: 40px;  list-style: none;}
+ #Bebidas li {display: flex;  flex-direction: column;  align-items: center;  text-align: center;font-family: Arial;font-size: 150%;width: 200px;}
+ #Bebidas li img {height: 200px;width: 200px;object-fit: cover;}
+
+
+ footer {text-align: center;font-size: 30px;font-family: Arial; background-color: #1d1717;color: #070603;
+    text-align: center;padding: 20px;margin-top: 60px;background-image: url(madera.jpg);font-weight: bolder;}
+
+ #Horarios {margin-top: 60px;text-align: center;background-color: #ffffff;padding: 30px;border-radius: 15px;width: 35%;
+    margin-left: auto;margin-right: auto;box-shadow: 0px 5px 15px rgba(120, 170, 39, 0.2);color: #2b1d1d;}
+
+    #Horarios h3 {  font-size: 45px;    margin-bottom: 15px;}
+
+    #Horarios p { font-size: 28px;margin: 5px 0;}
+
+    #Textofooter p {font-size: 30px;}
+
+    #Textofooter {margin-top: 60px;text-align: center;background-color: #ffffff;padding: 30px;border-radius: 15px;width: 60%;
+    margin-left: auto;margin-right: auto;box-shadow: 0px 5px 15px rgba(120, 170, 39, 0.2);color: #2b1d1d;}
+
+
+    /*Smartphone*/
+
+
+@media (max-width: 768px) {main, section, .contenedor-padre {width: 100% !important;padding: 20px 0 !important;display: flex !important;
+        flex-direction: column !important;align-items: center !important;box-sizing: border-box !important;}
+
+   
+    #horario {width: 85% !important;max-width: 380px !important;margin: 20px auto !important;padding: 30px 20px !important;
+        background-color: white !important;border-radius: 15px !important;box-shadow: 0 4px 15px rgba(0,0,0,0.2) !important;
+        display: block !important;text-align: center !important;box-sizing: border-box !important;}
+
+   
+    #entradas ul, #plato-fuerte ul, #bebidas ul, #Botones {display: flex !important;flex-direction: column !important;
+        width: 90% !important;margin: 0 auto !important;gap: 15px !important;padding: 0 !important;align-items: center !important;}
+
+  
+    button, .btn {width: 100% !important;max-width: 120px !important;min-height: 50px !important;margin: 10px 0 !important;
+        display: block !important;}
+
+  
+    img {max-width: 90% !important;height: auto !important;margin: 10px auto !important;display: block !important;}}
+
+a {text-decoration: none;}
